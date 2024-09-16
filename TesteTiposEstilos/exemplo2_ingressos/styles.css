@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite ;
+    color: black;
+    min-height: 100vh; /*Garante que o body ocupe toda a altura da tela*/
+}
+
+header{
+    background-color: rgb(43, 198, 12);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    display: flex; /*O uso do flexbox para alinhar a logo eo titulo*/
+
+    /*Alinha verticalmente os itens da div em questão*/
+    align-items: center;
+
+    /*Centraliza os itens horizontalmente*/
+    justify-content: center;
+
+    background-color: blueviolet;
+}
+
+img{
+    max-width: 70px;
+    margin-right: 10px;
+}
