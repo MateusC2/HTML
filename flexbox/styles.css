@@ -1,0 +1,32 @@
+.container{
+    display: flex; /*Alinha os itens na horizontal*/
+    flex-direction: row; /*Permite a quebra de linha*/
+    flex-wrap: wrap; /*Distribui os itens com espaçamento igual entre eles*/
+    justify-content: space-between;  /*Alinha itens ao centro do eixo transversal*/
+    align-items: center;
+    height: 100%;
+    border: 2px solid black;
+
+}
+
+.item{
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ad9c9c;
+    border: 1px solid #674646;
+}
+
+header {
+    background-color: #333;  
+    color: white; 
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;  
+    color: white; 
+    text-align: center;
+    padding: 10px;
+}
